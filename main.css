@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-image: linear-gradient(to right, #0b2434, #2e4c6f);
+}
+
+header h1 {
+    color: white;
+    align-items: center;
+    font-size: 32px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.skate {
+    margin-right: 32px;
+}
+
+section img {
+    width: 30%;
+    margin-top: 18px;
+}
+
